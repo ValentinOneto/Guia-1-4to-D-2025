@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class DeclaracionDeVariables : MonoBehaviour
 {
+    int edadUsuario;
+    float sueldoUsuario;
+    string nombreUsuario;
+    bool tieneCasa;
+
     // Start is called before the first frame update
     void Start()
     {
