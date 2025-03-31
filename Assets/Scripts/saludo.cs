@@ -2,16 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class num1 : MonoBehaviour
-
+public class saludo : MonoBehaviour
 {
-    int n1;
-    int resultado;
+    public string nombre;
 
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log($"El resultado de la suma de {n1} + 2 es igual a {n1 + 2}" );
+        Debug.Log($"Hola {nombre}");
     }
 
     // Update is called once per frame
