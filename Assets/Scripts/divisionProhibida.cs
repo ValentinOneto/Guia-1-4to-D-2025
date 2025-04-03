@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class divisionProhibida : MonoBehaviour
 {
-    public float num1;
+    public int num1;
     public int num2;
     float resultado;
 
@@ -13,7 +13,7 @@ public class divisionProhibida : MonoBehaviour
     {
         if(num2 != 0)
         {
-            resultado = num1 / num2;
+            resultado = num1 *1.0f / num2;
             Debug.Log($"{num1} / {num2} = {resultado}");
         }
         else
